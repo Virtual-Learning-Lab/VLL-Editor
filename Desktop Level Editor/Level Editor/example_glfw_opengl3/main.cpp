@@ -124,7 +124,7 @@ int main(int, char**)
         ImGui_ImplGlfw_NewFrame();
         ImGui::NewFrame();
 
-        //My own window
+        //VLL Editor
         LevelEditor::RenderUI();
 
         // Rendering
