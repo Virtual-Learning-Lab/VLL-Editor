@@ -2,15 +2,13 @@
 
 class Zinc : public VLL::Application
 {
-public: 
+public:
 	Zinc()
 	{
-
 	}
 
 	~Zinc()
 	{
-
 	}
 };
 
