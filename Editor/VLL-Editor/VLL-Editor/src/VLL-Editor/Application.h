@@ -1,8 +1,10 @@
 #pragma once
 
+#include "Core.h"
+
 namespace VLLEditor
 {
-	class Application
+	class VLLEditor_API Application
 	{
 	public:
 		Application();
