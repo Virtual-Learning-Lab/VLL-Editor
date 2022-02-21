@@ -2,9 +2,9 @@
 
 #include "Core.h"
 
-namespace VLLEditor
+namespace VLL
 {
-	class VLLEditor_API Application
+	class VLL_API Application
 	{
 	public:
 		Application();

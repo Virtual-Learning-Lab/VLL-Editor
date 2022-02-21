@@ -1,10 +1,22 @@
-namespace VLLEditor
-{
-	_declspec(dllimport) void Print();
-}
+#include <VLL.h>
 
+class Zinc : public VLL::Application
+{
+public: 
+	Zinc()
+	{
+
+	}
+
+	~Zinc()
+	{
+
+	}
+};
 
 void main()
 {
-	VLLEditor::Print();
+	Zinc* zinc = new Zinc();
+	zinc->Run();
+	delete zinc;
 }

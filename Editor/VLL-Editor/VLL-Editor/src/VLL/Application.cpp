@@ -1,6 +1,6 @@
 #include "Application.h"
 
-namespace VLLEditor
+namespace VLL
 {
 	Application::Application()
 	{
