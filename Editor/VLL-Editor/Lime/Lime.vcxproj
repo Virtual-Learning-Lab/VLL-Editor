@@ -87,12 +87,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\ZincApp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\VLL-Editor\VLL-Editor.vcxproj">
       <Project>{abe54295-f7d1-4bfe-872d-0af446de64a9}</Project>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="src\ZincApp.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
